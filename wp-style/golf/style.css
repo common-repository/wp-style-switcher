@@ -1,0 +1,323 @@
+/* 
+
+	Golf Theme 
+	Modified 2004-01-20 by Alex King (http://www.alexking.org/)
+
+	based on:
+	Default WordPress by Dave Shea || http://mezzoblue.com
+	Modifications by Matthew Mullenweg || http://photomatt.net
+	This is just a basic layout, with only the bare minimum defined.
+	Please tweak this and make it your own. :)
+
+*/
+
+a {
+	color: #030;
+}
+a:visited {
+	color: #363;
+}
+a:hover {
+	color: #696;
+}
+a[href="javascript:history.go(-1)"] {
+	display: none !important;
+	visibility: hidden !important;
+}
+acronym, abbr {
+	border-bottom: 1px dashed #333;
+}
+acronym, abbr, span.caps {
+	cursor: help;
+	letter-spacing: .07em;
+}
+blockquote {
+	border-left: 5px solid #ccc;
+	margin-left: 1.5em;
+	padding-left: 5px;
+}
+body {
+	background: #363;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	margin: 0;
+	border: 0;
+}
+h2 {
+	font-size: .95em;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	border-bottom: 1px dotted #fff;
+	color: #fff;
+	margin: 15px 0 7px 0;
+	padding-bottom: 2px;
+}
+h3 {
+	font-size: .85em;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	margin-top: 5px;
+}
+p, li, .feedback {
+	color: #fff;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	font-size: .65em;
+}
+cite {
+	font-style: normal;
+	font-size: 90%;
+}
+#content {
+	float: left;
+	margin: 10px 2px 0 10px;
+	padding-bottom: 30px;
+	width: 470px;
+}
+#content div a, #content p a {
+	color: #fff;
+}
+#content div a:hover, #content p a:hover {
+	color: #cfc;
+}
+#content .storycontent a {
+	color: #000;
+}
+#content .storycontent a:hover {
+	color: #333;
+}
+#commentform input {
+	background-color: #fff;
+	border: 1px solid #696;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	font-size: 1em;
+}
+#commentform textarea {
+	background-color: #fff;
+	border: 1px solid #696;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	font-size: 1em;
+	width: 400px;
+}
+ol#comments li p {
+	font-size: 1em;
+	margin: 0px;
+	margin-bottom: 7px;
+	text-align: justify;
+}
+ol#comments li p cite a {
+	color: #fff;
+}
+#header {
+	letter-spacing: 0.2em;
+	background: #696;
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 700px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #696;
+	border-bottom: 3px solid #696;
+	border-top: 0px;
+}
+#header a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	position: relative;
+	top: 200px;
+	left: 25px;
+}
+#header a:hover {
+	text-decoration: underline;
+}
+#menu {	
+	background: #9c9;
+	border: 1px solid #696;
+	border-top: 0px;
+	padding: 20px 0 30px 5px;
+	float: right;
+	width: 180px;
+}
+#menu form {
+	margin: 0;
+}
+#menu input {
+	background-color: #fff;
+	border: 1px solid #696;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	font-size: .9em;
+	width: 80px;
+}
+#menu input[type="submit"] {
+	background-color: #e8e8e8;
+	border: 1px solid #696;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	font-size: .9em;
+	width: 50px;
+}
+#menu ul {
+	color: #030;
+	font-weight: bold;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 5px;
+}
+#menu ul li {
+	background-image: url(images/icon_iron.gif);
+	background-repeat: no-repeat;
+	color: #000;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	font-weight: bold;
+	font-size: .7em;
+	margin-top: 15px;
+	padding-bottom: 0px;
+	padding-left: 24px;
+}
+#menu ul ul {
+	font-weight: normal;
+	line-height: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+#menu ul ul li {
+	background: none;
+	font-family: verdana, arial, helvetica, geneva, sans-serif;
+	font-size: .9em;
+	font-weight: normal;
+	margin: 0;
+	margin-top: 5px;
+	padding: 0;
+	border: 0;
+}
+#menu ul ul li a {
+	color: #000;
+	height: 13px;
+}
+#menu ul ul li a:hover {
+	color: #363;
+}
+#rap {
+	margin: auto;
+	width: 702px;
+}
+/* uncomment if you use the sample images
+#styleswitcher li {
+	float: left;
+	margin: 0 5px 5px 0;
+	padding-left: 5px;
+}
+#styleswitcher img {
+	border: 1px solid #999;
+	margin: 5px 10px 0 0;
+}
+*/
+.credit {
+	clear: both;
+	color: #fff;
+	font-size: .65em;
+	margin: 10px 0 0 0;
+	padding: 3px;
+	text-align: center;
+}
+.credit a:link, .credit a:visited, .credit a:hover {
+	color: #fff;
+}
+.feedback {
+	color: #fff;
+	text-align: right;
+}
+.feedback a, .feedback a:active, .feedback a:link, .feedback a:visited {
+	color: #fff;
+}
+.legal {
+	color: #363;
+	font-size: .65em;
+	text-align: right;
+	margin: 10px;
+	margin-top: 30px;
+}
+.meta, .meta a {
+	color: #fff;
+	font-size: .65em;
+	font-weight: normal;
+	letter-spacing: 0;
+	margin-bottom: 5px;
+}
+.paged_links a {
+	color: #fff;
+	font-weight: bold;
+}
+.post-categories {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+.post-categories li {
+	display: inline;
+	margin-left: 0 3px 0 0;
+	padding: 0;
+}
+.post-categories li a {
+	font-size: 1.5em;
+}
+.storycontent {
+	background: #9c9;
+	border: 1px solid #cfc;
+	color: #000;
+	margin: 5px;
+	margin-top: 0px;
+	padding: 10px;
+}
+.storycontent p, .storycontent li {
+	color: #000;
+	margin: 0px;
+	margin-bottom: 7px;
+	text-align: justify;
+}
+.storytitle {
+	background-image: url(images/icon_driver.gif);
+	background-repeat: no-repeat;
+	display: block;
+	font-size: .85em;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	padding-left: 24px;
+}
+.storytitle a {
+	border-bottom: 1px dotted #fff;
+	color: #fff;
+	text-decoration: none;
+}
+.storytitle a:hover {
+	border-bottom: 1px solid #cfc;
+	color: #cfc;
+	text-decoration: none;
+}
+.storytitle a:visited {
+	border-bottom: 1px solid #cfc;
+	color: #cfc;
+	text-decoration: none;
+}
+.storytitle .meta {
+	display: block;
+	font-size: .75em;
+}
+.storytitle .meta a {
+	border-bottom: 0px;
+	color: #fff;
+	text-decoration: underline;
+}
+.storytitle .meta a:hover {
+	border-bottom: 0px;
+	color: #cfc;
+	text-decoration: underline;
+}
+.storytitle .meta a:visited {
+	border-bottom: 0px;
+	color: #cfc;
+	text-decoration: underline;
+}
+#wp-calendar td {
+	font-weight: normal;
+}
+

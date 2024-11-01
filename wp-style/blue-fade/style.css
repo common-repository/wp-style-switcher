@@ -1,0 +1,285 @@
+/* 
+	Blue-Fade Theme 
+	Modified 2004-01-20 by Alex King (http://www.alexking.org/)
+
+	based on:
+	Default WordPress by Dave Shea || http://mezzoblue.com
+	Modifications by Matthew Mullenweg || http://photomatt.net
+	This is just a basic layout, with only the bare minimum defined.
+	Please tweak this and make it your own. :)
+*/
+
+a {
+	color: #036;
+}
+
+a img {
+	border: none;
+}
+
+a:visited {
+	color: #369;
+}
+
+a:hover {
+	color: #69c;
+}
+
+acronym, abbr {
+	border-bottom: 1px dashed #333;
+}
+
+acronym, abbr, span.caps {
+	cursor: help;
+	font-size: 90%;
+	letter-spacing: .07em;
+}
+
+blockquote {
+	border-left: 5px solid #ccc;
+	margin-left: 1.5em;
+	padding-left: 5px;
+}
+
+body {
+	background: #fff url(images/content-background.gif) repeat-x;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+cite {
+	font-size: 90%;
+	font-style: normal;
+}
+
+h2 {
+	border-bottom: 1px dotted #ccc;
+	font: 80% Arial, Helvetica, sans-serif;
+	letter-spacing: 0.2em;
+	margin: 15px 0 2px 0;
+	padding-bottom: 2px;
+}
+
+h3 {
+	border-bottom: dotted 1px #eee;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0;
+}
+
+ol#comments li p {
+	font-size: 100%;
+}
+
+p, li, .feedback {
+	font: 90%/125% Verdana, Geneva, sans-serif;
+	letter-spacing: 100%;
+}
+
+.credit {
+	background: #369;
+	border-top: solid 1px #9cf;
+	color: #fff;
+	font-size: 11px;
+	margin: 10px 0 0 0;
+	padding: 3px;
+	text-align: center;
+}
+
+.credit a:link, .credit a:hover, .credit a:visited {
+	color: #fff;
+}
+
+.feedback {
+	color: #ccc;
+	text-align: right;
+}
+
+.meta {
+	font-size: .75em;
+}
+
+.meta, .meta a {
+	color: #808080;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+.meta ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.meta li {
+	display: inline;
+}
+
+.storytitle {
+	margin: 0;
+}
+
+.storytitle a {
+	text-decoration: none;
+}
+
+#commentform input, #commentform textarea {
+	background: #fff;
+	border: 1px solid #999;
+}
+
+#commentform textarea {
+	width: 100%;
+}
+
+#content {
+	margin: 30px 13em 0 3em;
+	padding-right: 60px;
+}
+
+#header {
+	background: #036 url(images/header-background.gif) repeat-x;
+	border-bottom: 1px solid #69c;
+	font: italic normal 230% 'Times New Roman', Times, serif;
+	letter-spacing: 0.2em;
+	margin: 0;
+	padding: 15px 10px 15px 30px;
+}
+
+#header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header a:hover {
+	text-decoration: underline;
+}
+
+#menu {
+	background: #e8e8e8 url(images/menu-background.gif) repeat-x;
+	border-left: 1px solid #9cf;
+	border-bottom: 1px solid #9cf;
+	padding: 30px 0 20px 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 11em;
+}
+
+#menu form {
+	margin: 0;
+}
+
+#menu input {
+	background: #fff;
+	border: 1px solid #999;
+	width: 80%;
+}
+
+#menu ul {
+	color: #369;
+	font-weight: bold;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 3px;
+}
+
+#menu ul li {
+	font: italic normal 100% 'Times New Roman', Times, serif;
+	letter-spacing: 100%;
+	margin-top: 10px;
+	padding-bottom: 2px; /*border-bottom: dotted 1px #ccc;*/
+}
+
+#menu ul ul {
+	list-style-type: none;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#menu ul ul li {
+	border: 0;
+	font: normal 70% Verdana, sans-serif;
+	letter-spacing: 100%;
+	margin-top: 0;
+	padding: 0 0 1px 12px;
+}
+
+#menu ul ul li a {
+	color: #036;
+	text-decoration: none;
+}
+
+#menu ul ul li a:hover {
+	border-bottom: 1px solid #69c;
+}
+
+#styleswitcher li {
+	margin-bottom: 5px;
+}
+
+#styleswitcher img {
+	border: 1px solid #999;
+}
+
+#wp-calendar {
+	background: #fff;
+	border: 1px solid #ddd;
+	empty-cells: show;
+	font-size: 14px;
+	margin: 0 0 0 -5px;
+	width: 90%;
+}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+}
+
+#wp-calendar a:hover {
+	background: #e8e8e8;
+	color: #333;
+}
+
+#wp-calendar caption {
+	color: #369;
+	font-size: 14px;
+	text-align: left;
+}
+
+#wp-calendar td {
+	color: #999;
+	font: normal 11px Verdana, Geneva, sans-serif;
+	padding: 1px 1px;
+	text-align: right;
+}
+
+#wp-calendar td.pad:hover {
+	background: #fff;
+}
+
+#wp-calendar td:hover, #wp-calendar #today {
+	background: #e8e8e8;
+	color: #666;
+}
+
+#wp-calendar th {
+	color: #69c;
+	font-style: normal;
+	text-transform: capitalize;
+}
